@@ -314,12 +314,26 @@
         justify-content: center;
 }
 
-.galeriasep{
+.galeriasep {
         width: 100%;
         padding: 5%;
 }
 
-.luxypro{
+.galeriahref {
+        text-decoration: none;
+}
+
+.galerispan {
+        justify-content: center;
+        color: #000;
+        font-family: cursive;
+        font-size: 23px;
+        font-size: 30px;
+        line-height: 27px;
+        padding: 1vw 0px 1vw 2vw;
+}
+
+.luxypro {
         width: 554px;
         height: 47px;
         flex-direction: column;
@@ -333,7 +347,7 @@
         line-height: 45px;
 }
 
-.develop{
+.develop {
         display: flex;
         color: #000;
         text-align: center;
@@ -342,4 +356,63 @@
         font-style: normal;
         font-weight: 500;
         line-height: 45px; 
+}
+
+.contacus {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: aquamarine;
+        padding: 5% 0% 5% 0%;
+}
+
+.contacusimg {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+.contacusimg1 {
+        height: 550px;
+        position: absolute;
+}
+
+.contacusimg2 {
+        width: 600px;
+        z-index: 1;
+        padding-left: 150px;
+        padding-top: 40px;
+}
+
+.contacustxt{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        width: 500px;
+        height: 100px;
+
+}
+
+.services {
+        color: #DF991B;
+        font-family: PF Regal Display Pro;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+}
+
+.art {
+        color: #000;
+        font-family: PF Regal Display Pro;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 65px; /* 81.25% */
+}
+
+.ultimate {
+        color: #000;
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 45px; /* 150% */
 }
