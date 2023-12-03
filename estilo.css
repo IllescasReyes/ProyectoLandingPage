@@ -453,6 +453,11 @@
         grid-template-rows: auto auto;
 }
 
+.seccfin12{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+}
+
 .join{
         color: #DF991B;
         font-family: cursive;
@@ -471,16 +476,12 @@
         line-height: 65px; /* 108.333% */
 }
 
-.seccfin2{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-}
-
 .sepinput{
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 5px;
 }
+
 .name{
         font-size: 20px;
         font-weight: 400;
@@ -512,4 +513,38 @@
         font-family: brandon-grotesque;
         text-transform: uppercase;
         justify-self: end;
+        cursor: pointer;  
+}
+
+.seccfin2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: #000;
+}
+
+.seccfin21 {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+}
+
+.become {
+        color:#B4B7B7;
+        font-family: Brandon Grotesque;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 38px;
+}
+
+.casas {
+        color: #B4B7B7;
+        font-family: Brandon Grotesque;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 45px;
+}
+
+@media only screen and (min-with: 320px) {
+        
 }
