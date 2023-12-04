@@ -46,7 +46,7 @@
 .navbar_header .navbar_container-links a {
         text-decoration: none;
         color: var(--color-black);
-        font-family: var(--font-family-lato);
+        font-family: brandon-grotesque;
         font-size: 18px;
       }
 
@@ -107,7 +107,7 @@
 
 .busqueda21 {
         color: #FFF;
-        font-family: PF Regal Display Pro;
+        font-family: cursive;
         font-size: 40px;
         font-style: normal;
         font-weight: 400px;
@@ -229,7 +229,7 @@
 
 .text5{
         color: #DF991B;
-        font-family: PF Regal Display Pro;
+        font-family: cursive;
         font-size: 26px;
         font-style: normal;
         font-weight: 400;
@@ -238,7 +238,7 @@
 
 .text6{
         color: #000;
-        font-family: PF Regal Display Pro;
+        font-family: cursive;
         font-size: 40px;
         font-style: normal;
         font-weight: 500;
@@ -403,7 +403,7 @@
 
 .services {
         color: #DF991B;
-        font-family: PF Regal Display Pro;
+        font-family: cursive;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -412,8 +412,8 @@
 
 .art {
         color: #000;
-        font-family: PF Regal Display Pro;
-        font-size: 80px;
+        font-family: cursive;
+        font-size: 50px;
         font-style: normal;
         font-weight: 500;
         line-height: 65px; /* 81.25% */
@@ -470,7 +470,7 @@
 .unlock {
         color: #FFF;
         font-family: cursive;
-        font-size: 50px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 500;
         line-height: 65px; /* 108.333% */
@@ -545,6 +545,194 @@
         line-height: 45px;
 }
 
-@media only screen and (min-with: 320px) {
+@media only screen and (min-with: 320px) and (max-with:480px) {
+
+        .galeria {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .seccion1imagenes{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
         
+        .grid-contetn-img1{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .grid-contetn-img2{
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        } 
+
+        .text4{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        } 
+
+        .galeria{
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .galeriaimg {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .galeriatxt {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .contacus {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .contacusimg {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .contacustxt {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .seccionfinal {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .seccfin1 {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .seccfin11 {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .seccfin12 {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .sepinput {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        .seccfin2 {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+        }
+
+        .seccfin21 {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+
+        }
 }
+
+
+@media only screen and (min-with: 481px) and (max-with:768px) {
+        .galeria {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .seccion1imagenes{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+        
+        .grid-contetn-img1{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .grid-contetn-img2{
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        } 
+
+        .text4{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        } 
+
+        .galeria{
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .galeriaimg {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .galeriatxt {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .contacus {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .contacusimg {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .contacustxt {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .seccionfinal {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .seccfin1 {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .seccfin11 {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .seccfin12 {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .sepinput {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+        }
+
+        .seccfin2 {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+
+        }
+
+        .seccfin21 {
+                display: grid;
+                grid-template-rows: repeat(auto-fit, minmax(481px, 1fr));
+
+        }  
+}
+
+    
