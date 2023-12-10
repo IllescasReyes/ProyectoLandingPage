@@ -343,18 +343,25 @@
         object-fit: cover;
         height: 20vw;
         padding: 5%;
-        transition: width 2s, height 2s, transform 2s;
+        transition: width .5s, height .5s, transform .5s;
 }
 
 #gimagen:hover{
-        width: 300px;
-        height: 300px;
+        /* width: 300px;
+        height: 300px; */
         border-color: black;
+        transform: scale(1.2);
 }
 
 
 .galeriahref {
         text-decoration: none;
+        display: block;
+        max-width: 300px;
+}
+
+.galeriahref img {
+        width: 100%;
 }
 
 .galerispan {
@@ -656,7 +663,9 @@
         }
 
         .galeriaimg{
-                display: flexbox;
+                /* display: flexbox; */
+                grid-template-columns: repeat(1, auto);
+                justify-content: center;
         }
 
         .galerispan{
@@ -737,7 +746,9 @@
         }
 
         .galeriaimg{
-                display: flexbox;
+                /* display: flexbox; */
+                grid-template-columns: repeat(3, auto);
+                justify-content: center;
         }
 
         .galerispan{
